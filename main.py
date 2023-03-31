@@ -95,7 +95,7 @@ monsters_speeds = [2, 3, 1, 2]
 
 #for the wait timer in the while loop
 startup_counter = 0
-lives = 0
+lives = 3
 
 gameOver = False
 gameWon = False
