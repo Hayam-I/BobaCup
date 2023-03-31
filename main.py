@@ -736,7 +736,7 @@ def board_display():
     for i in range(len(lvl)):
         for j in range(len(lvl[i])):
             if lvl[i][j] == 1:
-                pygame.draw.circle(screen, 'white', (j * col + (0.5 * col), i * row + (0.5 * row)), 4)
+                pygame.draw.circle(screen, 'brown', (j * col + (0.5 * col), i * row + (0.5 * row)), 4)
             if lvl[i][j] == 2 and not flash:
                 pygame.draw.circle(screen, 'white', (j * col + (0.5 * col), i * row + (0.5 * row)), 10)
             if lvl[i][j] == 3:
